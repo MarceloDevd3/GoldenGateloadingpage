@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    overflow: hidden;
+    color: #fff;
+}
+
+button{
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner video {
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 25px 0 25px;
+}
+
+.logo a {
+    margin-left: 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+ul {
+    display: flex;
+    position: relative;
+    left: -105px;
+    font-size: small;
+}
+
+li a{
+    margin: 0 30px 0 30px;
+    letter-spacing: 2px;
+}
+
+a{
+    font-weight: 800;
+}
+
+
+button{
+    letter-spacing: 3px;
+}
+
+button:hover{
+    background-color: #e74040;
+    transition: 0.5s ease-in-out;
+}
+.seach {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    background: linear-gradient(125deg,#50f0f0, #f36a6a ,#eeb1bc);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+i{
+    opacity: 0.9;
+}
+
+.vidro{
+-webkit-clip-path: polygon(0 0, 48% 0, 48% 100%, 0% 100%);
+clip-path: polygon(0 0, 48% 0, 48% 100%, 0% 100%);
+width: 95%;
+height: 100vh;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.37);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.8px);
+-webkit-backdrop-filter: blur(7.8px);
+border: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+.vidro {
+    position: absolute;
+    top: 0;
+}
+
+
+.inverte{
+    position: absolute;
+    top:20rem ;
+    left: -2rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+}
+section {
+    padding: 25px;
+    position: relative;
+    top: 40px;
+    left: 75px;
+}
+
+p .temperature-sun{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wd  {
+    width: 400px;
+}
+
+.sun {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+p img {
+    margin-top: 2px;
+    margin-left: 12px;
+    filter: opacity(0.3) drop-shadow(0 0 0 white);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 5.5rem;
+    margin-bottom: 10px;
+}
+
+.btn-large {
+    margin-top: 28px;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    background-color: tomato;
+}
+
+@media (min-width:1440px) {
+    p{
+        font-size: 14px;
+    }
+     
+.vidro{
+    width: 85%;
+    }
+
+    
+nav {
+    margin: 10px 25px 0 25px;
+    width: 90%;
+}
+
+nav .logo img {
+    font-size: 18px;
+}
+
+section p {
+    font-size: 15px;
+}
+
+ul {
+    display: flex;
+ 
+}
+
+a{
+    font-size: 20px;
+}
+
+li a{
+    letter-spacing: 2px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.wd {
+    margin-top: 25px;
+}
+
+
+section {
+    padding: 25px;
+    position: relative;
+    top: 75px;
+    left: 75px;
+}
+
+
+}

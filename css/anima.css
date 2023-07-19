@@ -1,0 +1,74 @@
+@-webkit-keyframes moves {
+  from {
+    position: absolute;
+    left: -10000px;
+    overflow: hidden;
+  }
+  to {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+  }
+}
+@keyframes moves {
+  from {
+    position: absolute;
+    left: -10000px;
+    overflow: hidden;
+  }
+  to {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+  }
+}
+@-webkit-keyframes fadeloading {
+  0% {
+    opacity: 0%;
+  }
+  0% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  95% {
+    opacity: 95%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes fadeloading {
+  0% {
+    opacity: 0%;
+  }
+  0% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  95% {
+    opacity: 95%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@-webkit-keyframes color-move {}
+@keyframes color-move {}
+body {
+  -webkit-animation: fadeloading 1.2s ease-in;
+          animation: fadeloading 1.2s ease-in;
+}
+
+nav {
+  -webkit-animation: fadeloading 2s ease-in;
+          animation: fadeloading 2s ease-in;
+}
+
+.vidro {
+  -webkit-animation: moves 1.9s ease-in-out;
+          animation: moves 1.9s ease-in-out;
+}

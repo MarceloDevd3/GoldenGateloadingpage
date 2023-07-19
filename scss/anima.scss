@@ -1,0 +1,51 @@
+@keyframes moves {
+    from {
+      position: absolute;
+      left: -10000px;
+      overflow: hidden;
+    }
+
+    to {
+        position: absolute;
+        left: 0;
+        overflow: hidden;
+    }
+}
+
+@keyframes fadeloading {
+     0%{
+      opacity: 0%;
+     }
+
+     0%{
+        opacity: 50%;
+     }
+
+     75%{
+        opacity: 75%;
+       }
+  
+       95%{
+          opacity: 95%;
+       }
+
+     100%{
+        opacity: 100%;
+     }
+}
+
+@keyframes color-move{
+    
+}
+
+body{
+    animation: fadeloading  1.2s ease-in;
+}
+
+nav {
+    animation: fadeloading  2s ease-in;
+}
+
+.vidro {
+    animation: moves 1.9s ease-in-out;
+}
